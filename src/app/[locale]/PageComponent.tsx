@@ -115,7 +115,7 @@ const PageComponent = ({
             </div>
 
             <div className="flex items-center justify-center space-x-7 py-10">
-                <a href={`/${locale}/playground`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
+                <a href={`/${locale}`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
                   <p className="mr-8 font-bold text-2xl tracking-wider">{indexLanguageText.btn}</p>
                     <svg fill="currentColor" className="h-6 w-6 flex-none" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
                         <title>{indexLanguageText.btn}</title>
@@ -354,7 +354,7 @@ const PageComponent = ({
 
 
             <div className="flex items-center justify-center space-x-7 py-10">
-                <a href={`/${locale}/playground`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
+                <a href={`/${locale}`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
                   <p className="mr-8 font-bold text-2xl tracking-wider">{indexLanguageText.btn}</p>
                     <svg fill="currentColor" className="h-6 w-6 flex-none" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
                         <title>{indexLanguageText.btn}</title>
