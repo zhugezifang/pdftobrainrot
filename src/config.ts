@@ -1,17 +1,12 @@
 import {Pathnames} from 'next-intl/navigation';
 
-export const locales = ['en','ko'] as const;
+export const locales = ['en'] as const;
 
 export const languages = [
   {
     code: "en-US",
     lang: "en",
     language: "English",
-  },
-  {
-    code: "ko-KR",
-    lang: "ko",
-    language: "한국어",
   }
 ]
 
