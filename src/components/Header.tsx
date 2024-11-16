@@ -73,20 +73,12 @@ export default function Header({
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          
             <a
               key={navMenuText.name2}
               href={`/${locale}${navMenuText.href2}`}
               onClick={() => setShowLoadingModal(true)}
               className="text-sm font-semibold leading-6 text-white ">
               {navMenuText.name2}
-            </a>
-            <a
-              key={navMenuText.name3}
-              href={`/${locale}${navMenuText.href3}`}
-              onClick={() => setShowLoadingModal(true)}
-              className="text-sm font-semibold leading-6 text-white ">
-              {navMenuText.name3}
             </a>
         </div>
         <div className="flex flex-1 justify-end mr-2">
@@ -176,13 +168,6 @@ export default function Header({
                 onClick={() => setShowLoadingModal(true)}
                 className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 ">
                 {navMenuText.name2}
-                </a>
-                <a
-                  key={navMenuText.name3}
-                  href={`/${locale}${navMenuText.href3}`}
-                  onClick={() => setShowLoadingModal(true)}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 ">
-                  {navMenuText.name3}
                 </a>
               
               </div>

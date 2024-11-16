@@ -5,8 +5,6 @@ export const getNavMenu = async () => {
   return {
     name2: navMenuIndex('name2'),
     href2: navMenuIndex('href2'),
-    name3: navMenuIndex('name3'),
-    href3: navMenuIndex('href3'),
   };
 }
 
@@ -18,8 +16,9 @@ export const getIndexLanguageText = async () => {
     h1Text: tIndex('h1Text'),
     pDescription: tIndex('pDescription'),
     img_h2: tIndex('img_h2'),
-    level_h2:tIndex('level_h2'),
-    more_level:tIndex('more_level')
+    contact_h2:tIndex('contact_h2'),
+    video_h2:tIndex('video_h2'),
+    btn:tIndex('btn')
   };
 }
 

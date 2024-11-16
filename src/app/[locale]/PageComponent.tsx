@@ -128,10 +128,22 @@ const PageComponent = ({
 
             </div>
 
-            <div
-                className={"w-[90%] mx-auto mb-8 border-[2px] border-gray-200 object-fill"}>
-                <ImageSplitter locale={locale} indexLanguageText={indexLanguageText}/>
+            <div className="flex items-center justify-center space-x-7 py-10">
+                <a href={`/${locale}/playground`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
+                  <p className="mr-8 font-bold text-2xl tracking-wider">{indexLanguageText.btn}</p>
+                    <svg fill="currentColor" className="h-6 w-6 flex-none" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
+                        <title>{indexLanguageText.btn}</title>
+                        <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"></polygon>
+                    </svg>
+                </a>
             </div>
+
+            <section id="video" className="py-12">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 className="text-3xl font-bold text-center text-indigo-800 mb-8">{indexLanguageText.video_h2}</h2>
+                <iframe width="100%" height="691" src="https://www.youtube.com/embed/5N1MrqjSois?si=OisvDii-EuaacK12" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+              </div>
+            </section>
 
             <section id="how-it-works" className="py-16 bg-gray-50">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -216,35 +228,6 @@ const PageComponent = ({
               </div>
             </div>
 
-            <section id="perfecttidylevel" className="bg-indigo-100 py-12">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-bold text-center text-indigo-800 mb-8">{indexLanguageText.level_h2}</h2>
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-                  <div className="bg-white p-2 rounded-lg shadow-md text-center">
-                    <p className="text-xs font-semibold text-indigo-600 whitespace-nowrap overflow-hidden text-ellipsis">Perfect Tidy Level
-                      1</p></div>
-                  <div className="bg-white p-2 rounded-lg shadow-md text-center">
-                    <p className="text-xs font-semibold text-indigo-600 whitespace-nowrap overflow-hidden text-ellipsis">Perfect Tidy Level
-                      2</p></div>
-                  <div className="bg-white p-2 rounded-lg shadow-md text-center">
-                    <p className="text-xs font-semibold text-indigo-600 whitespace-nowrap overflow-hidden text-ellipsis">Perfect Tidy Level
-                      3</p></div>
-                  <div className="bg-white p-2 rounded-lg shadow-md text-center">
-                    <p className="text-xs font-semibold text-indigo-600 whitespace-nowrap overflow-hidden text-ellipsis">Perfect Tidy Level
-                      4</p></div>
-                  <div className="bg-white p-2 rounded-lg shadow-md text-center">
-                    <p className="text-xs font-semibold text-indigo-600 whitespace-nowrap overflow-hidden text-ellipsis">Perfect Tidy Level
-                      5</p></div>
-                  <div className="bg-white p-2 rounded-lg shadow-md text-center">
-                    <p className="text-xs font-semibold text-indigo-600 whitespace-nowrap overflow-hidden text-ellipsis">Perfect Tidy Level
-                      6</p></div>
-                </div>
-                <div className="text-center mt-8">
-                  <a className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-indigo-700 transition duration-300" href={`/${locale}/perfect-tidy-walkthrough`}>{indexLanguageText.more_level}
-                  <span className="font-bold text-yellow-300">Lever 1 to 115</span></a>
-                </div>
-              </div>
-            </section>
             
             <section className="py-8 md:py-12 lg:py-16">
               <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -457,6 +440,26 @@ const PageComponent = ({
                 </div>
               </section>
             </div>
+
+            <div
+              className="mx-auto flex max-w-4xl flex-col items-center text-center pt-10">
+              <h2 className="mb-4 text-4xl font-bold md:text-4xl">{indexLanguageText.contact_h2}</h2>
+            </div>
+
+
+            <iframe src="https://tally.so/embed/3xN5Jy?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" style={{ width: '100%', height: '350px'}}></iframe>
+
+
+            <div className="flex items-center justify-center space-x-7 py-10">
+                <a href={`/${locale}/playground`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
+                  <p className="mr-8 font-bold text-2xl tracking-wider">{indexLanguageText.btn}</p>
+                    <svg fill="currentColor" className="h-6 w-6 flex-none" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
+                        <title>{indexLanguageText.btn}</title>
+                        <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"></polygon>
+                    </svg>
+                </a>
+            </div>
+
 
           </div>
 
