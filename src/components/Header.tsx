@@ -56,10 +56,10 @@ export default function Header({
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href={`/${locale}`} className="-m-1.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
-            <Image className="h-8 w-auto" src="/favicon.svg" alt="Perfect Tidy" width={32} height={32}/>
+            <Image className="h-8 w-auto" src="/favicon.svg" alt="PDF to Brainrot" width={32} height={32}/>
           </a>
           <a href={`/${locale}`} className="-m-1.5 ml-0.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
-            <span className="font-bold text-white text-2xl">Perfect Tidy</span>
+            <span className="font-bold text-white text-2xl">PDF to Brainrot</span>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -139,7 +139,7 @@ export default function Header({
           className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href={`/${locale}`} className="-m-1.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
-              <Image className="h-8 w-auto" src="/favicon.svg" alt="Perfect Tidy" width={32} height={32}/>
+              <Image className="h-8 w-auto" src="/favicon.svg" alt="PDF to Brainrot" width={32} height={32}/>
             </a>
             <a href={`/${locale}`} className="-m-1.5 ml-0.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
               <Image
@@ -147,7 +147,7 @@ export default function Header({
                 src="/favicon.svg"
                 width={32}
                 height={24}
-                alt="Perfect Tidy"/>
+                alt="PDF to Brainrot"/>
             </a>
             <button
               type="button"

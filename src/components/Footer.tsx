@@ -28,7 +28,7 @@ export default function Footer({
                 src="/favicon.svg"
                 width={32}
                 height={32}
-                alt="Perfect Tidy"
+                alt="PDF to Brainrot"
               />
             </a>
             <p className="text-sm text-white">
@@ -102,7 +102,7 @@ export default function Footer({
               target="_blank"
               className="text-white font-bold"
             >
-              Perfect Tidy
+              PDF to Brainrot
             </a>{" "}
             All rights reserved.
           </p>
