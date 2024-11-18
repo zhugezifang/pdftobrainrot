@@ -114,15 +114,17 @@ const PageComponent = ({
 
             </div>
 
-            <div className="flex items-center justify-center space-x-7 py-10">
-                <a href={`/${locale}`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
-                  <p className="mr-8 font-bold text-2xl tracking-wider">{indexLanguageText.btn}</p>
-                    <svg fill="currentColor" className="h-6 w-6 flex-none" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
-                        <title>{indexLanguageText.btn}</title>
-                        <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"></polygon>
-                    </svg>
-                </a>
+            <div className="flex justify-center space-x-4 py-8">
+              <a href="#" className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition">
+              {indexLanguageText.btn}
+              </a>
+              <a href="http://www.ai-timeline.top/" target="_blank" className="px-6 py-3 bg-gray-100 text-gray-800 font-semibold rounded-lg shadow-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 transition">
+                AI TimeLine
+              </a>
             </div>
+
+
+            
 
             <section id="video" className="py-12">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -353,14 +355,13 @@ const PageComponent = ({
             <iframe src="https://tally.so/embed/3xN5Jy?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" style={{ width: '100%', height: '350px'}}></iframe>
 
 
-            <div className="flex items-center justify-center space-x-7 py-10">
-                <a href={`/${locale}`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
-                  <p className="mr-8 font-bold text-2xl tracking-wider">{indexLanguageText.btn}</p>
-                    <svg fill="currentColor" className="h-6 w-6 flex-none" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg">
-                        <title>{indexLanguageText.btn}</title>
-                        <polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"></polygon>
-                    </svg>
-                </a>
+            <div className="flex justify-center space-x-4 py-8">
+              <a href="#" className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition">
+              {indexLanguageText.btn}
+              </a>
+              <a href="http://www.ai-timeline.top/" target="_blank" className="px-6 py-3 bg-gray-100 text-gray-800 font-semibold rounded-lg shadow-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 transition">
+                AI TimeLine
+              </a>
             </div>
 
 
